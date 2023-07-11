@@ -301,7 +301,7 @@
 
 
                     <div class="article-style">
-                        <p>My name is Ruiqi Zhu (朱瑞琦). I am a first-year PhD student with <a
+                        <p>My name is Ruiqi Zhu (朱瑞琦). I am a second-year PhD student with <a
                                 href="https://nms.kcl.ac.uk/oya.celiktutan/">Oya
                             Celiktutan</a> as my supervisor at <a
                                 href="https://sairlab.github.io/">SAIR lab</a>, King's College London. Prior to that,
@@ -368,10 +368,69 @@
 
 
                     </div>
+
                 </div>
             </div>
 
 
+        </div>
+    </section>
+
+    <section id="news" class="home-section wg-featured">
+        <div class="home-section-bg ">
+
+        </div>
+        <div class="container">
+
+
+            <div class="row  ">
+
+
+                <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+                    <h1 class="mb-0">News</h1>
+
+                </div>
+                <div class="col-12 col-lg-8">
+
+
+                    <div class="media stream-item">
+                        <div class="section" id="news">
+                            <!--                            <h2 id="news_title">News</h2>-->
+                            <ul class="news">
+                                <li> [06-2023] One paper is accepted to IROS 2023.</li>
+                                <li> [05-2022] Two papers are accepted to Hamlyn Symposium on Medical Robotics 2022.
+                                </li>
+                                <li> [05-2022] Receive ICRA 2022 Outstanding Interaction Paper Award.</li>
+                                <a id="more_news_button" href="javascript:newsMore()"></a>
+                            </ul>
+                            <script type="text/javascript">
+                                more_news = 0
+
+                                function newsMore() {
+                                    if (more_news == 1) {
+                                        document.getElementById("more_news_button").innerHTML = "Show less";
+                                        var items = document.getElementsByClassName("more_news")
+                                        for (i = 0; i < items.length; i++) {
+                                            items[i].style.display = "list-item";
+                                        }
+                                    } else {
+                                        document.getElementById("more_news_button").innerHTML = "Show all";
+                                        var items = document.getElementsByClassName("more_news")
+                                        for (i = 0; i < items.length; i++) {
+                                            items[i].style.display = "none";
+                                        }
+                                    }
+                                    more_news = 1 - more_news;
+                                }
+
+                                newsMore();
+                            </script>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -393,6 +452,60 @@
 
 
                 <div class="col-12 col-lg-8">
+
+                    <div class="media stream-item">
+                        <div class="media-body">
+
+                            <div class="section-subheading article-title mb-0 mt-0">
+                                <a>Learning to Solve Tasks with Exploring Prior Behaviours</a>
+                            </div>
+
+
+                            <a href="/publication/nips21b/" class="summary-link">
+                                <div class="article-style">
+                                    IROS 2023
+                                </div>
+                            </a>
+
+
+                            <div class="stream-meta article-metadata">
+
+
+                                <div>
+
+                                <span class="author-highlighted">
+                                  Ruiqi Zhu</span>, <span>
+                                  Siyuan Li</span>, <span>
+                                  Tianhong Dai</span>, <span>
+                                  Chongjie Zhang</span>, <span>
+                                  Oya Celiktutan</span>
+                                </div>
+
+                            </div>
+
+
+                            <div class="btn-links">
+
+
+
+                                <a class="btn btn-outline-primary btn-page-header btn-sm"
+                                   href="https://arxiv.org/pdf/2307.02889.pdf" target="_blank" rel="noopener">
+                                    PDF
+                                </a>
+                                <a class="btn btn-outline-primary btn-page-header btn-sm"
+                                   href="https://github.com/Ricky-Zhu/IRDEC" target="_blank" rel="noopener">
+                                    Code
+                                </a>
+
+
+
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
 
 
                     <div class="media stream-item">
@@ -458,7 +571,7 @@
 
                             <a href="/publication/nips21b/" class="summary-link">
                                 <div class="article-style">
-                                    ICRA 2021 (Outstanding Interaction Paper Award)
+                                    ICRA 2022 (Outstanding Interaction Paper Award)
                                 </div>
                             </a>
 
