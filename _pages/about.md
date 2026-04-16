@@ -17,18 +17,24 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a final-year PhD student at King's College London, supervised by <a href="https://nms.kcl.ac.uk/oya.celiktutan/">Oya Celijtutan</a>. Prior to joining KCL, I had a fortunate to be a visiting scholar working with <a href="https://engineering.washu.edu/faculty/Chongjie-Zhang.html">Chongjie Zhang</a> at <a href="https://mig-ai.github.io/">Machine Intelligence Group</a>, Tsinhua University. I obtained my master degree and bachelor degree from Imperial College London and University of Birmingham, respectively.
+I am a PhD student at King's College London, supervised by <a href="https://nms.kcl.ac.uk/oya.celiktutan/">Oya Celiktutan</a>. Prior to joining KCL, I had a fortunate to be a visiting scholar working with <a href="https://engineering.washu.edu/faculty/Chongjie-Zhang.html">Chongjie Zhang</a> at <a href="https://mig-ai.github.io/">Machine Intelligence Group</a>, Tsinhua University. I obtained my master degree and bachelor degree from Imperial College London and University of Birmingham, respectively.
 
-<!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
 # 🔥 News
+- *2026.02*: &nbsp;🎉 One paper is accepted to RA-L.
 - *2024.11*: &nbsp;🤖 Thrilled to start my internship at Toshiba Europe Research.
 - *2024.01*: &nbsp;🎉 One paper is accepted to ICRA 2024. 
-- *2023.06*: &nbsp;🎉 One paper is accepted to IROS 2023.
-- *2022.09*: &nbsp;🤗Thrilled to start my internship at Huawei Noah’s Ark Lab (UK).
-- *2022.05*: &nbsp;🎉 Receive ICRA 2022 Outstanding Interaction Paper Award.
-- *2022.01*: &nbsp;🎉 One paper is accepted to ICRA 2022. 
+
+<details>
+<summary><em>Show more</em></summary>
+<ul>
+  <li><em>2023.06</em>: &nbsp;🎉 One paper is accepted to IROS 2023.</li>
+  <li><em>2022.09</em>: &nbsp;🤗Thrilled to start my internship at Huawei Noah’s Ark Lab (UK).</li>
+  <li><em>2022.05</em>: &nbsp;🎉 Receive ICRA 2022 Outstanding Interaction Paper Award.</li>
+  <li><em>2022.01</em>: &nbsp;🎉 One paper is accepted to ICRA 2022.</li>
+</ul>
+</details>
  
 
 
@@ -98,7 +104,7 @@ Junhong Chen, Dandan Zhang, Adnan Munawar, **Ruiqi Zhu**, et.al
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📖 Educations
-- *2021.10 - Present*, PhD at King's College London.
+- *2021.10 - 2025.10*, PhD at King's College London.
 - *2019.09 - 2020.11*, MRes at Imperial College London.
 - *2015.09 - 2019.06*, BEng at University of Birmingham.
 
